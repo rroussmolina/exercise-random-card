@@ -1,0 +1,90 @@
+body{
+    background: green;
+    box-sizing: border-box;
+
+}
+.card 
+{
+ width: 180px;
+ height: 280px;
+ border: 1px solid black;
+ text-align: center;
+ line-height: 260px;
+ border-radius: 5px;
+ background: white;
+ font-size: 70px;
+ position: relative;
+}
+
+#number
+{
+ margin: 0 0 0 0;
+}
+
+.spades:after
+{
+ content: "♠";
+ color: black;
+ position: absolute; 
+ top: 110px; 
+ right: 10px; 
+}
+.spades:before
+{
+ content: "♠";
+ color: black;
+ position: absolute; 
+ top: -95px; 
+ right: 120px; 
+}
+
+.hearts:after
+{
+ content: "♥";
+ color: red;
+ position: absolute; 
+ top: 110px; 
+ right: 10px; 
+}
+.hearts:before
+{
+ content: "♥";
+ color: red;
+ position: absolute; 
+ top: -95px; 
+ right: 120px; 
+}
+
+.clubs:after
+{
+ content: "♣";
+ color: black;
+ position: absolute; 
+ top: 110px; 
+ right: 10px; 
+}
+.clubs:before
+{
+ content: "♣";
+ color: black;
+ position: absolute; 
+ top: -95px; 
+ right: 120px; 
+}
+
+.diamonds:after
+{
+ content: "♦";
+ color: red;
+ position: absolute; 
+ top: 110px; 
+ right: 10px; 
+}
+.diamonds:before
+{
+ content: "♦";
+ color: red;
+ position: absolute; 
+ top: -95px; 
+ right: 120px; 
+}
